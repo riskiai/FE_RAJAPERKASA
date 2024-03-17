@@ -20,13 +20,16 @@ body{
 
 /*Start Login Style*/
 .login{
+    -webkit-box-shadow: -7px 1px 1px -5px rgba(254,121,54,1);
+    -moz-box-shadow: -7px 1px 1px -5px rgba(254,121,54,1);
+    box-shadow: -7px 1px 1px -5px rgba(254,121,54,1);
     float:left;
     background-color: #fafafa;
     height: 100%;
     border-radius: 10px 0 0 10px;
     text-align: center;
     padding-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 10px !important;
 }
 .login h1{
     margin-bottom: 40px;
@@ -105,6 +108,7 @@ input[type="checkbox"]{
     border-radius:  0 10px 10px  0;
     text-align: center;
     padding: 233px 0;
+    margin-top: 10px !important;
 }
 .register h2{
     margin: 30px 0;
@@ -129,4 +133,8 @@ input[type="checkbox"]{
     color: #FE7A36;
     background-color: #fff;
     cursor: pointer;
+}
+
+.start a  {
+    margin-left: 50px !important;
 }
